@@ -35,7 +35,15 @@ h1 {
   color: white;
   text-align: center;
 }
-.btn{
+.btn {
+  cursor: pointer;
+  transition: 0.2s ease-in;
+}
+.btn:hover {
+  transform: rotate(10deg);
+  transform: scale(110%);
+}
+.btn {
   margin: 0 auto;
   font-family: "Jersey 15", sans-serif;
   font-size: 1.5rem;
@@ -52,17 +60,17 @@ h1 {
   color: white;
 }
 
-strong{
-  font-family: monospace,sans-serif;
+strong {
+  font-family: monospace, sans-serif;
 }
 .secret {
-  font-size: .8rem;
+  font-size: 0.8rem;
   position: absolute;
   top: 110px;
 }
 .mean-it {
   font-size: 1.5rem;
-  text-transform:capitalize ;
+  text-transform: capitalize;
 }
 
 .planet {
@@ -477,6 +485,9 @@ strong{
 .s3 {
   bottom: 98px;
   left: 65px;
+}
+a.s3 {
+  display: block;
 }
 .s4 {
   top: 216px;
